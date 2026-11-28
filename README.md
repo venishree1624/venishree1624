@@ -19,8 +19,6 @@
 ## 👩‍💻 About Me
 *A little introduction, the programmer's way.*
 
-![Embedded mindset](https://img.shields.io/badge/Embedded_mindset-00D4FF?style=flat-square&labelColor=0a1a2f)
-
 ```c
 #include <stdio.h>
 
