@@ -17,11 +17,42 @@
 ---
 
 ## 👩‍💻 About Me
-I'm a final-year **Electronics and Communication Engineering** student who enjoys blending **hardware precision with software innovation**. I build IoT systems with microcontrollers and sensors, and I'm exploring how AI can make connected devices smarter.
+*A little introduction, the programmer's way.*
 
-- 🔭 Working on: IoT and embedded projects
-- 🌱 Exploring: AI & ML for connected devices
-- 🎯 Looking for: internships in embedded systems / IoT
+![Embedded mindset](https://img.shields.io/badge/Embedded_mindset-00D4FF?style=flat-square&labelColor=0a1a2f)
+
+```c
+#include <stdio.h>
+
+typedef struct {
+    char *name;
+    char *role;
+    char *interests[3];
+    char *recharge[4];
+    char *motto;
+} Engineer;
+
+int main(void) {
+    Engineer venishree = {
+        .name      = "Venishree",
+        .role      = "Final-year ECE Student",
+        .interests = {"Embedded Systems", "IoT", "AI & ML"},
+        .recharge  = {"Listening to music", "Writing poems",
+                      "Watching movies", "Classical dancing"},
+        .motto     = "Turning code into circuits ⚡"
+    };
+
+    printf("Name      : %s\n", venishree.name);
+    printf("Role      : %s\n", venishree.role);
+    printf("Interests : %s | %s | %s\n",
+           venishree.interests[0], venishree.interests[1], venishree.interests[2]);
+    printf("Recharge  : %s | %s | %s | %s\n",
+           venishree.recharge[0], venishree.recharge[1],
+           venishree.recharge[2], venishree.recharge[3]);
+    printf("Motto     : %s\n", venishree.motto);
+    return 0;
+}
+```
 
 ---
 
